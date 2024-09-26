@@ -1,0 +1,30 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: $primary-font-family; */
+  font-size: 10px;
+  color: #1c2a39;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

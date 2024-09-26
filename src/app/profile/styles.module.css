@@ -1,0 +1,115 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 87px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoBody {
+  display: flex;
+  gap: 17px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1c2a39;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.detail div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail span {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.detail h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.editBtn {
+  color: #4c3db2;
+  border: 1px solid #4c3db2;
+  background-color: transparent;
+  font-weight: 700;
+  width: 176px;
+  height: 45px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  width: 353px;
+  height: 345px;
+  background-color: #ffe0e2;
+  padding: 17px 29px;
+}
+
+.about h1 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5c6a79;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .infoBody {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .detail {
+    gap: 20px;
+  }
+
+  .detail span {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

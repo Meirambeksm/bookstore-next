@@ -1,0 +1,99 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cartBook {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.poster {
+  background-color: #5c6a79;
+  width: 102.5px;
+  height: 145.05px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 180px;
+}
+
+.info h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1c2a39;
+}
+
+.info span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #5c6a79;
+}
+
+.rating {
+  display: flex;
+  gap: 6px;
+}
+
+.review {
+  font-family: "Open Sans";
+  color: #5c6a79;
+}
+
+.cartAdditional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.quantityBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 176px;
+  height: 45px;
+  border: solid 1px #eeedf5;
+}
+
+.quantityBtn button {
+  font-size: 40px;
+  background-color: transparent;
+  width: 33%;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.quantityBtn span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5c6a79;
+  width: 34%;
+  text-align: center;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c2a39;
+}
+
+.delivery {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5c6a79;
+}
+
+@media screen and (max-width: 768px) {
+  .cartAdditional {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
